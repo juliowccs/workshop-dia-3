@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-        <h1>Rick and Morty Characters</h1>
+      <h1>Rick and Morty Characters</h1>
       <div className='flex'>
         {data.map((item) => (
           <div key={item.id}>
