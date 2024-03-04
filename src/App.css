@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #E5E7EB;
+}
+h2 {
+  font-size: 22px;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #155e75;
+  border-radius: 12px;
+}
+
+p {
+  color: #E5E7EB;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+img {
+  border-radius: 10px;
+}
+
+body {
+  background-color: #1F2937;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
